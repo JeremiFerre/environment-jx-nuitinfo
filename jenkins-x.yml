@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: nuitinfo
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: nuitinfo
+  pipelines: {}
